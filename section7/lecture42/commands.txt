@@ -1,0 +1,5 @@
+Using aws lambda with aws cli
+
+aws --version
+aws lambda list-functions
+aws lambda get-function --function-name my-function

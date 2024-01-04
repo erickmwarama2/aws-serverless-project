@@ -1,0 +1,7 @@
+Invoking lambda functions with the aws cli
+
+aws lambda list-functions
+aws lambda get-function --function-name my-function
+
+Invoke command
+aws lambda invoke --function-name my-function --region ap-southeast-1 --cli-binary-format raw-in-base64-out --payload '{"key":"value from erick"}' response.json
