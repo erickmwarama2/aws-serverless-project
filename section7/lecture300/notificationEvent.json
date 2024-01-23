@@ -1,0 +1,21 @@
+{
+    "Records": [
+        {
+            "messageId": "f97c2898-5dfd-4aba-82be-b70e8ee8e6bb",
+            "receiptHandle": "AQEBC7IMWejcR1S4V1KpfxpqZ1UJ5jp48FHXG7e4M5vvvJnrPwNyDDfQfGMuoQs25scbAEZIjhlB5gt3Q44qWikTE8nEj+aRr8tNDNOcW8KloHL61L4lxb57RKGXla+6rNOmDuRaRyQVKqDBoR6IWUQS0xiFGHCp7IJOeqkijgcnBfQ6cK1xoVFDh30w/AU2+xImuXn1CqEM1anPOu4NANv+jSJaz7gZjlpdggrSdcvhQIwwcuPp3AK5Pp1CUFtcBF9uMAGSnENYK1YM5q5yYSR1x2G9h3DkSZWV5v5HS5+qERn3rsltAPskmveYYr7murOgV17XC13+TUcsY0QlkwgUlE5i6ojZTKIRZVfNbQod/78GGa9Pl1H8KHaBuYVcLdoZ2NNiYXlgxfmbTVrKbytIvw==",
+            "body": "{\n  \"Type\" : \"Notification\",\n  \"MessageId\" : \"3fe82c16-295a-592e-b334-720a6f868ddd\",\n  \"TopicArn\" : \"arn:aws:sns:ap-southeast-1:525060345766:OrderTopic\",\n  \"Message\" : \"{\\\"username\\\":\\\"erick\\\",\\\"item\\\":\\\"iphone\\\",\\\"status\\\":\\\"CREATED\\\",\\\"type\\\":\\\"SHIP_REQUIRED\\\",\\\"id\\\":\\\"d34e4910-39b2-4755-8e12-57f94527c297\\\"}\",\n  \"Timestamp\" : \"2024-01-13T08:06:52.257Z\",\n  \"SignatureVersion\" : \"1\",\n  \"Signature\" : \"EzP5WEcNXuIhb7Y449a9az3kF8JPIYn8N5A0PFdHGsp6ziQhUJ0HrtglCe4g4/MelJhvWbwaDSJ9q/Xco7tS7gOae72Q/6TFQDawxTa1MY8AcBfbUMj+oCya5OGieeNrRxKVbIUav7MyXI/mJPZFLa7xPNAcEIgJI6M3bnoApXt8n6v/MBM1bqMvmdPL9n06MmXSAm+ogKWiy+z22hw/avOj8zp+jdj4VW87i2nI5YvxPtOT5X6MUvpN29Tl8FhmEATeg3/Uu7KjXH9l25b7Kgw9pS6BSL6D5Mvujc/0fQ5DZDSB+AF810HdHiZZu1SYVDYlA7lniQ/4LpILiXjhNw==\",\n  \"SigningCertURL\" : \"https://sns.ap-southeast-1.amazonaws.com/SimpleNotificationService-01d088a6f77103d0fe307c0069e40ed6.pem\",\n  \"UnsubscribeURL\" : \"https://sns.ap-southeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-southeast-1:525060345766:OrderTopic:b68702fd-dccb-4811-8557-0835901addf7\"\n}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-65a2449a-4dee4c3873f271382923b14c;Parent=67d221016f645bf6;Sampled=0;Lineage=efec3131:0",
+                "SentTimestamp": "1705133212289",
+                "SenderId": "AIDAJDKHOOGYTFNBBCJTW",
+                "ApproximateFirstReceiveTimestamp": "1705133212297"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "5d4f88ab240a1612fa29b5565e63895b",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:ap-southeast-1:525060345766:notification-queue",
+            "awsRegion": "ap-southeast-1"
+        }
+    ]
+}
